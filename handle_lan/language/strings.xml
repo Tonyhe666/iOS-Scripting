@@ -1,0 +1,680 @@
+<resources>
+    <string name="gcm_defaultSenderId"></string>
+    <string name="app_name">欢乐1元购</string>
+    <string name="time_format">yyyy/MM/dd HH:mm:ss</string>
+    <string name="common_str_delete">删除</string>
+    <string name="common_str_check_all">全选</string>
+    <string name="common_str_edit">编辑</string>
+    <string name="common_str_cancel">取消</string>
+    <string name="common_str_commit">提交</string>
+    <string name="common_str_commiting">正在提交</string>
+    <string name="common_str_confirm_order">确认订单</string>
+    <string name="common_str_submit_order">提交订单</string>
+    <string name="common_str_coupon">红包</string>
+    <string name="common_str_confirm">确认</string>
+    <string name="buy_now">立即参与</string>
+    <string name="buy_now2">立即参与</string>
+    <string name="net_error_load_good_list_failed">网路错误, 载入{title}失败</string>
+    <string name="net_error_load_good_list_full">{title} 已经全部载入</string>
+    <string name="good_list">商品列表</string>
+    <string name="join_user_list">参与用户列表</string>
+    <string name="app_loading">正在载入…</string>
+    <string name="traffic_goog_name">VPN Master 使用流量(欢乐1元购)</string>
+    <string name="net_error_connect_failed">连接伺服器失败，请重试！</string>
+    <string name="net_error_general">网路错误，请重试!</string>
+    <string name="net_error_invalid_server_return">伺服器返回数据格式错误，解析失败，请重试！</string>
+    <string name="lucky_buying">首页</string>
+    <string name="publish_list">最新揭晓</string>
+    <string name="shopping_cart">清单</string>
+    <string name="personal_center">会员中心</string>
+    <string name="add_to_cart">加入清单</string>
+    <string name="new_bonus">发现</string>
+    <string name="publish_item_pid">期号: {pid}</string>
+    <string name="publish_item_price">商品价格: &lt;font color="#fd5454">{money}欢乐币&lt;/font></string>
+    <string name="publish_item_number">中奖号码: &lt;font color="#ffad2d">{number}&lt;/font></string>
+    <string name="publish_item_award">获奖用户: {winner}</string>
+    <string name="publish_item_join_times">参与欢乐币: {cost}</string>
+    <string name="publish_item_reveal_date">揭晓时间: {time}</string>
+    <string name="publish_item_calculate">结果计算中...</string>
+    <string name="publish_list_load_footer">正在载入中…</string>
+    <string name="cart_times_format">总需: {totaltimes}欢乐币, 剩馀&lt;font color="#2097f3">{remaintimes}欢乐币&lt;/font></string>
+    <string name="cart_item_joint_times">参与人数</string>
+    <string name="cart_title_format">(第{period}期) {title}</string>
+    <string name="cart_item_pay">结算</string>
+    <string name="cart_item_pay_detail_format">共{number}件奖品，总计：&lt;font color="#fd5454">{money}欢乐币&lt;/font></string>
+    <string name="cart_item_no_suggestion">你的清单空空如也</string>
+    <string name="cart_item_buy_now">立即参与</string>
+    <string name="cart_item_check_failed">加入清单失败，请重整商品列表重试！</string>
+    <string name="cart_item_invalid">购物车商品已过期，请参与最新一期商品的抢购!</string>
+    <string name="cart_item_selected_count">共选中{count}件商品</string>
+    <string name="cart_item_already_exist">商品已在清单中！</string>
+    <string name="cart_item_already_finished">加入清单失败，本期商品参与人数已满，请重整商品列表！</string>
+    <string name="cart_item_invalid_good_state">加入清单失败，商品状态失效，请重整商品列表！</string>
+    <string name="cart_item_good_invalid">您选的商品被抢光了，快去买新的吧！</string>
+    <string name="good_detail_title">商品详情</string>
+    <string name="good_detail_not_joined">您没有参与本期夺宝哦！</string>
+    <string name="good_detail_total_needed_times">总需 {need_times}欢乐币</string>
+    <string name="good_detail_remain_times">剩馀 &lt;font color="#fd5454">{remain_times}&lt;/font></string>
+    <string name="good_detail_view_pictures">图文详情</string>
+    <string name="good_detail_view_previous_winner">往期揭晓</string>
+    <string name="good_detail_share_order">赢家分享</string>
+    <string name="good_detail_view_joiner">所有参与记录</string>
+    <string name="good_detail_joiner_start_time">{date}开始</string>
+    <string name="good_detail_reveal_counting">揭晓倒计时:</string>
+    <string name="good_detail_counting">倒计时</string>
+    <string name="good_detail_join_times">你参与了: &lt;font color="#fd5454">{join_times}&lt;/font>欢乐币</string>
+    <string name="good_detail_lucky_codes">幸运号码:{lucky_codes}</string>
+    <string name="good_detail_view_under_wifi">建议在wifi下查看</string>
+    <string name="good_detail_go_to_period">立即前往</string>
+    <string name="good_detail_add_cart">加入清单</string>
+    <string name="good_detail_join_period_tip">第{period}期正在火热进行…</string>
+    <string name="good_detail_good_title">(第{period}期){title}&lt;font color="#fd5454">{desc}&lt;/font></string>
+    <string name="good_detail_good_title2">第{period}期 &lt;font color="#333333">{title} {desc}&lt;/font></string>
+    <string name="good_detail_good_title3">{title}&lt;font color="#fd5454">{desc}&lt;/font></string>
+    <string name="good_detail_in_progress">进行中</string>
+    <string name="good_detail_already_revealed">已揭晓</string>
+    <string name="good_detail_winner_uid">用户ID: {uid}(唯一不变标识)</string>
+    <string name="good_detail_winner_winner_join_time">本期参与: &lt;font color="#fd5454">{cost}&lt;/font>欢乐币</string>
+    <string name="good_detail_reveal_time">揭晓时间: {data_time}</string>
+    <string name="good_detail_calc_detail">计算详情</string>
+    <string name="good_detail_winner_name">获奖者:</string>
+    <string name="good_detail_winner_number">获奖号码:</string>
+    <string name="good_detail_join_user_name">&lt;font color="#fd5454">{nickName}&lt;/font></string>
+    <string name="good_detail_join_user_address">({IPAddress} IP:{IP})</string>
+    <string name="good_detail_join_user_times">参与了&lt;font color="#fd5454">{times}&lt;/font>欢乐币 &lt;font color="#999999">({date})&lt;/font></string>
+    <string name="revealed_list_no_record">该商品尚无往期揭晓记录，赶快参与吧</string>
+    <string name="revealed_list_back">返回商品详情</string>
+    <string name="winner_info_title">往期揭晓</string>
+    <string name="winner_info_period">第{period}期  揭晓时间: {date}</string>
+    <string name="winner_info_user_name">获奖者: &lt;font color="#4db5f6">{nickName} &lt;/font>({address})</string>
+    <string name="winner_info_user_id">用户ID: &lt;font color="#666666">{uid}&lt;/font>&lt;font color="#999999">(唯一不变标识)&lt;/font></string>
+    <string name="winner_info_lucky_code">获奖号码: &lt;font color="#fd5454">{lucky_code}&lt;/font></string>
+    <string name="winner_info_join_times">本期参与: &lt;font color="#fd5454">{join_times}&lt;/font>欢乐币</string>
+    <string name="payment_title">支付订单</string>
+    <string name="payment_money">{money}欢乐币</string>
+    <string name="payment_money_fmt">&lt;font color="#fd5454">{money}&lt;/font> 欢乐币</string>
+    <string name="payment_good_sum">商品合计</string>
+    <string name="payment_account_remain">馀额支付(馀额: {money}欢乐币)</string>
+    <string name="payment_pay">确认支付</string>
+    <string name="payment_bom_tip">注: 请确认如下订单明细</string>
+    <string name="payment_good_price">参与欢乐币: &lt;font color="#fd5454">{cost}&lt;/font>欢乐币</string>
+    <string name="payment_good_price2">参与欢乐币: &lt;font color="#fd5454">{cost}&lt;/font>欢乐币(失败{failed}欢乐币，本期参与人数已满)</string>
+    <string name="payment_good_title">(第{period}期) {goodName}</string>
+    <string name="payment_balance_not_enough_1">还需要 &lt;font color="#fd5454">{cost}&lt;/font> 个欢乐币完成此单，去储值</string>
+    <string name="payment_error_balance_not_enough">馀额不足, 请先储值！</string>
+    <string name="payment_failed_generate_charge_order">生成储值订单失败，请重试或联繫线上客服！</string>
+    <string name="payment_method_detail">付款详情</string>
+    <string name="payment_method_alipay">支付宝</string>
+    <string name="payment_system_credit_card">信用卡支付</string>
+    <string name="payment_system_gash_card">GASH</string>
+    <string name="payment_system_google_play">Google钱包支付</string>
+    <string name="payment_system_paymentwall">Paymentwall支付</string>
+    <string name="payment_system_paypal">PayPal</string>
+    <string name="payment_failed_get_order">系统错误，获取订单号码失败!</string>
+    <string name="payment_failed_get_order_in_result">系统错误，购买返回结果中订单号码错误!</string>
+    <string name="payment_failed_money_insufficient">帐号金额不足，请尝试其它支付方式!</string>
+    <string name="payment_failed_good_information_error">商品资讯错误，生成订单失败!</string>
+    <string name="payment_failed_good_status_error">商品状态异常，生成订单失败!</string>
+    <string name="payment_failed_period_finished">购买失败，本期商品参与人数已满!</string>
+    <string name="payment_failed_order_error">获取购买结果失败，无此订单资料!</string>
+    <string name="payment_failed_network_busy">支付失败，系统繁忙，请重试!</string>
+    <string name="payment_failed_order_status_error">网路错误，订单状态异常，请重试!</string>
+    <string name="payment_failed_failed_to_start_gp">启动google play服务失败!</string>
+    <string name="payment_failed_failed_to_get_inventory">获取库存资料失败!</string>
+    <string name="payment_failed_invalid_good_state">商品状态不正确，购买失败!</string>
+    <string name="payment_failed_google_play_service_connecting">正在连接Google Play支付服务，请稍后再试!</string>
+    <string name="payment_failed_gp_success_charge_failed">付费成功，但因网路原因，帐号储值可能出现延迟，请重启程式查看馀额是否到帐，如问题仍存在，请联繫客服</string>
+    <string name="payment_failed_initialize_paypal_service">PayPal 服务尚未启动，请重启程式重试!</string>
+    <string name="payment_failed_start_paypal_service">PayPal 服务启动失败，请重启程式重试</string>
+    <string name="payment_failed_get_order_error">获取订单号码失败，请重试</string>
+    <string name="payment_failed_no_respond">网路错误，支付伺服器没有回应，请重试!</string>
+    <string name="payment_failed_sever_error">支付伺服器发生错误，请重试!</string>
+    <string name="purchase_record_title">参与记录</string>
+    <string name="purchase_record_reminder">您还没有参与记录哦</string>
+    <string name="purchase_record_item_title">(第{period}期){good_name}</string>
+    <string name="purchase_record_item_need_times">总需: {needed_times}</string>
+    <string name="purchase_record_view_my_lucky_code">查看幸运号码</string>
+    <string name="purchase_record_join_times">本期参与: &lt;font color="#fd5454">{joinTimes}&lt;/font>欢乐币</string>
+    <string name="purchase_record_winner_name">获奖者: &lt;font color="#4db5f6">{winner_name}&lt;/font></string>
+    <string name="purchase_record_winner_join_times">本次参与: &lt;font color="#fd5454">{joinTimes}&lt;/font>欢乐币</string>
+    <string name="purchase_record_winner_lucky_code">获奖号码: &lt;font color="#fd5454">{lucky_code}&lt;/font></string>
+    <string name="purchase_record_winner_reveal_date">揭晓时间: {reveal_date}</string>
+    <string name="purchase_record_winner_period">获奖期号: {period}</string>
+    <string name="charge_record_charge">储值</string>
+    <string name="charge_record_title">储值记录</string>
+    <string name="charge_record_reminder">您还没有储值记录</string>
+    <string name="charge_record_item_complement">检查储值结果</string>
+    <string name="charge_record_item_complement_success">补充成功</string>
+    <string name="charge_record_item_complement_fail">补充失败</string>
+    <string name="charge_record_dialog_complement_tip_success">补充欢乐币成功，请查询馀额</string>
+    <string name="charge_record_dialog_complement_tip_fail">该订单实际充值失败，有问题请联繫客服！</string>
+    <string name="charge_record_dialog_complement_tip_waiting">订单正在处理中，请稍后尝试！</string>
+    <string name="charge_record_dialog_btn_success">查询馀额</string>
+    <string name="win_record_title">中奖记录</string>
+    <string name="win_record_reminder">您还没有中奖记录哦</string>
+    <string name="pay_success_title">支付结果</string>
+    <string name="pay_success_congratulation">恭喜您, 参与成功!</string>
+    <string name="pay_success_wait_for_reveal">请等待系统为您揭晓!</string>
+    <string name="pay_success_lucky_buy">继续参与</string>
+    <string name="pay_success_view_record">查看参与记录</string>
+    <string name="pay_success_join_info">您成功参与了&lt;font color="#fd5454">{good_num}&lt;/font>件商品共&lt;font color="#fd5454">{total_times}&lt;/font>欢乐币夺宝, 资讯如下:</string>
+    <string name="pay_success_lucky_codes">幸运号码: {lucky_codes}</string>
+    <string name="uc_login">登入</string>
+    <string name="uc_logout">登出</string>
+    <string name="uc_login_title">用户登入</string>
+    <string name="uc_charge">储值</string>
+    <string name="uc_name">未知用户֪</string>
+    <string name="uc_cash">馀额：&lt;font color="#fd5454">{money} &lt;/font>欢乐币</string>
+    <string name="uc_duobaojilu">参与记录</string>
+    <string name="uc_zhongjiangjilu">中奖记录</string>
+    <string name="uc_chongzhijilu">储值记录</string>
+    <string name="uc_setting">设置</string>
+    <string name="uc_my_share_order">我的分享</string>
+    <string name="uc_address">收货地址</string>
+    <string name="uc_forget_pw">忘记密码</string>
+    <string name="uc_login_with_fb">Facebook登入</string>
+    <string name="uc_login_with_googleplus">Google+登入</string>
+    <string name="uc_login_waiting">正在登入…</string>
+    <string name="uc_login_already_has_account">已有帐号登入</string>
+    <string name="uc_reg_email">邮箱:</string>
+    <string name="uc_reg_mobile_hint">请输入手机号码（可选填）</string>
+    <string name="uc_login_input_user_hint">请输入邮箱</string>
+    <string name="uc_login_input_user_hint2">请输入手机号码或邮箱</string>
+    <string name="uc_login_input_pw_hint">请输入密码</string>
+    <string name="uc_login_input_pw_again_hint">请再次输入密码</string>
+    <string name="uc_user_registe">用户注册</string>
+    <string name="uc_registe">注册</string>
+    <string name="uc_registe2">注册新账号</string>
+    <string name="uc_registe_success">注册成功</string>
+    <string name="uc_commiting">正在提交…</string>
+    <string name="uc_login_thirdparty_login">第三方登入</string>
+    <string name="uc_login_common_err">用户名或密码错误</string>
+    <string name="uc_login_not_exist">用户不存在</string>
+    <string name="uc_login_not_activate">您还没有启动帐户，请先登入邮箱启动帐户</string>
+    <string name="uc_login_no_user">用户名不能为空</string>
+    <string name="uc_login_no_password">密码不能为空</string>
+    <string name="uc_login_input_email_or_mobile">请输入邮箱或手机号码</string>
+    <string name="uc_reg_verify_getnew">获取验证码</string>
+    <string name="uc_reg_verify_tip">验证码已发送到您的手机{telephone}，请注意查收。</string>
+    <string name="uc_reg_verify_input_code">请输入验证码</string>
+    <string name="uc_reg_verify_send_again">重新发送</string>
+    <string name="uc_reg_verify_mobile_exist">这个手机号码已经被注册过，请换一个重试。</string>
+    <string name="uc_reg_verify_mobile_invalid">无效的手机号码</string>
+    <string name="uc_reg_verify_code_invalid">无效的验证码</string>
+    <string name="uc_reg_verify_malicious_request">您的验证码请求过于频繁，请稍后再试。</string>
+    <string name="uc_reg_verify_request_interval_limit">由于验证码发送间隔的限制，请您稍后重试。</string>
+    <string name="uc_reg_verify_send_failed">验证码发送失败，请稍后重试。</string>
+    <string name="uc_reg_pw_err">两次输入的密码不一致</string>
+    <string name="uc_reg_mail_used">这个邮箱已经被注册过，换个邮箱试试!</string>
+    <string name="uc_reg_invalid_mail">请输入有效的邮箱地址</string>
+    <string name="uc_reg_frequency_tip">5分钟内不能重複注册</string>
+    <string name="uc_reg_invalid_pw">请输入6–16位由字母（区分大小写）、数字或下划线组成的密码</string>
+    <string name="uc_reg_no_mobile">请输入手机号码</string>
+    <string name="uc_reg_no_verify_code">请输入验证码</string>
+    <string name="uc_reg_no_email">请输入邮箱</string>
+    <string name="uc_user_info">个人资料</string>
+    <string name="uc_user_avatar">头像</string>
+    <string name="uc_user_id">用户ID</string>
+    <string name="uc_user_account">帐号</string>
+    <string name="uc_user_nickname">暱称</string>
+    <string name="uc_user_edit_nickname">修改暱称</string>
+    <string name="uc_user_nickname_length_tip">只支持{min} - {max}位长度的暱称</string>
+    <string name="uc_addr_manage">地址管理</string>
+    <string name="uc_addr_add">新增</string>
+    <string name="uc_addr_list_empty">您还没有添加收货地址~</string>
+    <string name="uc_addr_post_code">邮递区号</string>
+    <string name="uc_addr_modify">编辑地址</string>
+    <string name="uc_addr_save">储存</string>
+    <string name="uc_addr_receiver">收货人</string>
+    <string name="uc_addr_tele">手机号码</string>
+    <string name="uc_addr_detail">详细地址</string>
+    <string name="uc_addr_landmarks">标志性建筑</string>
+    <string name="uc_addr_province">省份</string>
+    <string name="uc_addr_city">城市</string>
+    <string name="uc_addr_district">地区</string>
+    <string name="uc_addr_set_default">设为邮寄地址</string>
+    <string name="uc_confirm">确定</string>
+    <string name="uc_cancel">取消</string>
+    <string name="uc_query_del_address">确定要删除地址吗？</string>
+    <string name="uc_save_addr_tip">请填写完整的收货地址</string>
+    <string name="uc_nickname_tip1">请输入至少2个有效字符</string>
+    <string name="uc_nickname_tip2">暱称未发生变化，不需要储存</string>
+    <string name="uc_save_success">储存成功</string>
+    <string name="uc_delete_success">删除成功</string>
+    <string name="uc_delete_failed">删除失败</string>
+    <string name="uc_save_addr_tip2">资料未发生变化，不需要储存</string>
+    <string name="uc_save_addr_tip3">已经有预设地址，无法新增预设地址</string>
+    <string name="uc_addr_max_tip">最多只能新增5个收货地址</string>
+    <string name="uc_addr_saving">正在储存…</string>
+    <string name="uc_addr_deleting">正在删除…</string>
+    <string name="uc_addr_sel_province">请选择省份</string>
+    <string name="uc_addr_sel_city">请选择城市</string>
+    <string name="uc_addr_sel_district">请选择地区</string>
+    <string name="uc_addr_select">请选择</string>
+    <string name="uc_auth_cancel">授权操作已取消</string>
+    <string name="uc_auth_error">授权操作遇到错误</string>
+    <string name="uc_auth_network_err">网路连接错误，请检查当前的网路状态</string>
+    <string name="uc_auth_login_err">从伺服器获取用户资料错误，请稍后重试</string>
+    <string name="bulletin_title">公告</string>
+    <string name="deal_detail_title">参与详情</string>
+    <string name="deal_detail_good_title">第{period}期 {title}</string>
+    <string name="deal_detail_join_date">参与时间: {date}</string>
+    <string name="deal_detail_join_time">参与了&lt;font color="#fd5454">{num}&lt;/font>欢乐币, 以下是所有幸运号码:</string>
+    <string name="deal_detail_lucky_codes">{luckyCodes}</string>
+    <string name="gt_search_goods">搜寻商品</string>
+    <string name="gt_hot_search_key">热门搜寻</string>
+    <string name="gt_search_result">搜寻结果</string>
+    <string name="gt_browse">分类浏览</string>
+    <string name="uc_charge_cash_tip">选择储值金额</string>
+    <string name="uc_pay_entrance_tip">选择支付方式</string>
+    <string name="uc_charge_now">立即储值</string>
+    <string name="uc_charge_success">储值成功</string>
+    <string name="uc_charge_coin_success">储值{number}欢乐币成功</string>
+    <string name="uc_currency">¥</string>
+    <string name="uc_charge_notice">储值获得欢乐币（1{currency} = 1欢乐币 + 1MB VPN流量），欢乐币可用于兑购，储值的款项将无法退回</string>
+    <string name="uc_charge_notice_ios">苹果公司不会以任何形式参与到“欢乐1元购”当中，所有活动及奖品与苹果公司无关。</string>
+    <string name="uc_paying">正在储值…</string>
+    <string name="uc_charge_body_text_fmt2">{count}欢乐币</string>
+    <string name="net_error_token_error">用户令牌资料错误，请重新登入</string>
+    <string name="net_error_token_empty">用户令牌资料为空，请重新登入</string>
+    <string name="net_error_account_disabled">此帐号已被封锁，如有疑问，请谘询客服人员</string>
+    <string name="so_title">赢家分享</string>
+    <string name="so_detail">赢家详情</string>
+    <string name="so_share">赢家分享</string>
+    <string name="so_revealed_date">揭晓时间：</string>
+    <string name="so_complete">完成</string>
+    <string name="so_photo_select">选择图片</string>
+    <string name="so_take_photo">拍照</string>
+    <string name="so_open_gallery">从相册中选取</string>
+    <string name="so_please_enter_content">请输入心得</string>
+    <string name="so_success">分享成功</string>
+    <string name="so_failed">分享失败</string>
+    <string name="so_loading_text">正在分享</string>
+    <string name="so_share_fmt_success">分享到 {platform} 成功</string>
+    <string name="so_share_fmt_failed">分享到 {platform} 失败</string>
+    <string name="so_share_to">分享到</string>
+    <string name="so_share_content">分享内容</string>
+    <string name="so_share_limit_fmt">{title}字数不够, 请至少输入 {number} 个字符</string>
+    <string name="so_share_pic_limit_fmt">请至少添加 {number} 张图片</string>
+    <string name="award_confirm">中奖确认</string>
+    <!--<string name="award_confirm_addr">确认收货地址</string>-->
+    <string name="award_received">确认收货</string>
+    <string name="award_share">分享</string>
+    <string name="award_need_charge_before">该商品需要储值一次后才能领取！</string>
+
+    <string name="dlg_update_title">版本更新 %s</string>
+    <string name="toolbar_notice_fmt">恭喜&lt;font color="#4db5f6">{user}&lt;/font>获得&lt;font color="#333333">{good}&lt;/font></string>
+    <string name="toolbar_minute_ago">{number}分钟前</string>
+    <string name="toolbar_hour_ago">{number}小时前</string>
+    <string name="dlg_button_update">更新</string>
+    <string name="dlg_progress_download">正在下载</string>
+
+    <string name="cs_hot_qa">热点问题</string>
+    <string name="cs_contact">联繫我们</string>
+    <string name="cs_title_help">帮助</string>
+    <string name="cs_customer_service">客服</string>
+    <string name="cs_feedback">问题反馈</string>
+    <string name="cs_feedback_success">提交成功</string>
+    <string name="cs_feedback_failed">提交失败</string>
+
+    <string name="personal_center_title">会员中心</string>
+    <string name="personal_center_user_name">{user_name}</string>
+    <string name="personal_center_user_id">ID: {user_id}</string>
+    <string name="so_no_share_order">您还没有分享记录</string>
+    <string name="so_share_gallery">相册</string>
+    <string name="so_taobao_now">立即参与</string>
+    <string name="publish_item_calc">正在计算开奖结果…</string>
+    <string name="pop_awards_period">(第{period}期)</string>
+    <string name="pop_congratulations">恭喜您获得</string>
+
+    <string name="so_share_limit_character_fmt">请在这裡发表你的中奖感言！（至少{number}个字）</string>
+    <string name="so_share_fmt_cancel">分享到 {platform} 取消</string>
+    <string name="payment_pay_wait">正在支付</string>
+    <string name="payment_error_good_cannot_buy">当前商品不能购买，可能是参与人数已满，请重新选择</string>
+    <string name="payment_error_shopping_cart_empty">购物车为空</string>
+    <string name="permission_request_rationale">为保证所有功能正常，请允许以下授权，我们不会获取您的隐私资料</string>
+    <string name="permission_denied_tip">部分功能可能无法正确运行</string>
+    <string name="payment_method_mycard_billing">MyCard支付</string>
+    <string name="payment_method_pay2go_vacc">ATM 转帐</string>
+    <string name="payment_method_pay2go_cvs">超商代码缴费</string>
+    <string name="payment_method_mycard_ingame">MyCard实体卡储值</string>
+    <string name="payment_method_mycard_member">MyCard会员帐户转点</string>
+    <string name="payment_method_mycard">MyCard</string>
+    <string name="payment_method_creditcard">信用卡</string>
+    <string name="payment_method_mob_billing">手机/市话</string>
+    <string name="payment_method_pointcard">点数卡</string>
+    <string name="payment_method_ewallet">电子钱包</string>
+    <string name="payment_method_webatm">WebATM</string>
+    <string name="payment_method_creditcard_desc">支持信用卡支付</string>
+    <string name="payment_method_mob_billing_desc">给你安全快捷的支付体验</string>
+    <string name="payment_method_pointcard_desc">支持点数卡支付</string>
+    <string name="payment_method_ewallet_desc">会员支付</string>
+    <string name="payment_method_pay2go_cvs_desc">手续费25元</string>
+    <string name="payment_method_mycard_mobbilling_dgd">台湾大哥大</string>
+    <string name="payment_method_mycard_mobbilling_ytdx">亚太电信</string>
+    <string name="payment_method_mycard_mobbilling_zhsh">中华市话</string>
+    <string name="payment_method_mycard_mobbilling_ycdx">远传电信</string>
+    <string name="payment_method_mycard_mobbilling_twzx">台湾之星（威宝）</string>
+    <string name="payment_method_mycard_mobbilling_zhsj">中华手机</string>
+    <string name="payment_method_gash_adsl_zhdx">中华电信 Hinet</string>
+    <string name="payment_method_mol_points">MOLPoints</string>
+    <string name="payment_method_mol_wallet">MOLPoints</string>
+    <string name="payment_method_mol_easy2pay">Easy2Pay</string>
+    <string name="payment_method_mol_creditcard">Visa/MasterCard</string>
+    <string name="payment_method_mol_fpx">FPX Savings/Current Account</string>
+    <string name="payment_method_mol_maybank2u">Maybank2u</string>
+    <string name="payment_method_ps_atmbersama_id">ATM/Online Banking Payment</string>
+    <string name="payment_method_ps_atmva_id">ATM Banker Transfer</string>
+    <string name="payment_method_ps_alfamart_id">Alfamart</string>
+    <string name="payment_method_ps_doku_id">DOKU</string>
+    <string name="payment_method_ps_atm_id">ATM/Bank Transfer</string>
+    <string name="buyall_buy">全价购买</string>
+    <string name="buyall_buy2">立即购买</string>
+    <string name="buyall_buy_tip">无需等待，直接获得商品！</string>
+    <string name="buyall_buy_not_enough_tip">商品剩馀数量不足，请耐心等待</string>
+    <string name="buyall_order_count">数量</string>
+    <string name="buyall_order_count2">数量:</string>
+    <string name="buyall_order_price">价格</string>
+    <string name="buyall_order_price2">价格:</string>
+    <string name="buyall_order_price3">价格: &lt;font color="#4db5f6">{fullprice}&lt;/font></string>
+    <string name="buyall_order_total_price">商品金额</string>
+    <string name="buyall_order_total_pay">实付款: </string>
+    <string name="buyall_order_add_addr">新增地址</string>
+    <string name="buyall_order_no_coupon">暂无可用红包</string>
+    <string name="buyall_order_record">购买记录</string>
+    <string name="buyall_order_all">全部</string>
+    <string name="buyall_order_status_waiting_pay">待付款</string>
+    <string name="buyall_order_status_waiting_ship">待发货</string>
+    <string name="buyall_order_status_waiting_receive">待收货</string>
+    <string name="buyall_order_status_closed">已关闭</string>
+    <string name="buyall_order_status_cancelled">已取消</string>
+    <string name="buyall_order_status_expired">已过期</string>
+    <string name="buyall_order_status_finished">已完成</string>
+    <string name="buyall_order_list_empty">列表为空~</string>
+    <string name="buyall_order_restart_order">再次购买</string>
+    <string name="buyall_order_delete_order">删除订单</string>
+    <string name="buyall_order_close_order">关闭订单</string>
+    <string name="buyall_order_pay_order">立即付款</string>
+    <string name="buyall_order_cancel_order">取消订单</string>
+    <string name="buyall_order_pay_tip">订单提交成功，只差最后一步支付就可以啦！</string>
+    <string name="buyall_order_countdown_fmt">请您在提交订单后{min}分{sec}秒内完成支付，否则订单会自动取消！</string>
+    <string name="buyall_order_id">订单号码：</string>
+    <string name="buyall_order_good_desc">商品资讯</string>
+    <string name="buyall_order_addr_info">收货资讯</string>
+    <string name="buyall_order_expired_tip">订单已过期，请重新购买</string>
+    <string name="buyall_order_back_tip">确定要放弃支付吗？</string>
+    <string name="buyall_order_delete_tip">确定要删除订单吗？</string>
+    <string name="buyall_order_close_tip">确定要关闭订单吗？</string>
+    <string name="buyall_order_cancel_tip">确定要取消订单吗？</string>
+    <string name="buyall_order_detail">订单详情</string>
+    <string name="buyall_order_status">订单状态：</string>
+    <string name="buyall_order_created_time">创建时间：</string>
+    <string name="buyall_order_id2">订单编号：</string>
+    <string name="buyall_order_detail_countdonw_fmt">您的订单已提交，请在{min}分{sec}秒内完成支付，逾时订单将自动取消</string>
+    <string name="buyall_order_good_not_enough">商品剩馀数量不足，请修改购买数量或重新下单</string>
+    <string name="buyall_order_pay_successe">购买成功，我们会尽快安排发货，请耐心等待！</string>
+    <string name="buyall_buy_method_1">方式1</string>
+    <string name="buyall_buy_method_2">方式2</string>
+    <string name="buyall_duobao_tip">仅需1欢乐币就有机会获得商品!</string>
+    <string name="buyall_period">第{period}期</string>
+    <string name="re_my_red_envelope">我的红包</string>
+    <string name="re_usable">可使用</string>
+    <string name="re_used">已使用</string>
+    <string name="re_expired">已过期</string>
+    <string name="re_red_discount">红包抵扣</string>
+    <string name="re_expired_used">已用/过期</string>
+    <string name="re_unusable_now">待派发</string>
+    <string name="re_go_use">去使用</string>
+    <string name="re_use_wait">等待派发</string>
+    <string name="re_use_date_fmt">该红包将于{date}派发</string>
+    <string name="re_full_fmt">满{money}可用</string>
+    <string name="re_cut_now">直减</string>
+    <string name="re_validity_date_fmt">有效期至:{date}</string>
+    <string name="re_no_red_available">暂无红包可用</string>
+    <string name="re_usable_red">{number}个红包可用</string>
+    <string name="re_direct_minus">折抵：{coin}</string>
+    <string name="payment_method_mycard_billing_tip">{ratio} 点数 = 1 欢乐币</string>
+    <string name="re_permanent">永久有效</string>
+    <string name="uc_payment_card_input_no_hint">请输入卡号</string>
+    <string name="uc_payment_card_input_pw_hint">请输入密码</string>
+    <string name="pwcg_no_network">没有网路连结</string>
+    <string name="pwcg_no_network_tip">这项操作必须在连线状态下才能完成。请连接Wi-Fi网络或数据网络。</string>
+    <string name="pwcg_retry">重试</string>
+    <string name="pwcg_coin_fmt">{money}欢乐币（购买{count}MB VPN）</string>
+    <string name="pwcg_pay_method">付款方式</string>
+    <string name="pwcg_pay_tip">汇率波动、银行手续费和相关税金皆可能会影响您的最终金额</string>
+    <string name="pwcg_buy">购买</string>
+    <string name="pwcg_other_options">其他选项</string>
+    <string name="pwcg_add_new_card">新增信用卡或金融卡</string>
+    <string name="pwcg_add_new_card_tip">请轻按[继续]新增付款方式或兑换代码，以完成交易。</string>
+    <string name="pwcg_next">继续</string>
+    <string name="pwcg_edit_card_info_tip">请输入信用卡资料</string>
+    <string name="pwcg_card_format_tip">4123 0000 0000 0000</string>
+    <string name="pwcg_valid_date">有效期</string>
+    <string name="pwcg_safe_code">安全码</string>
+    <string name="pwcg_card_holder_firstname">名字</string>
+    <string name="pwcg_card_holder_lastname">姓氏</string>
+    <string name="pwcg_telephone">电话号码</string>
+    <string name="pwcg_save">保存</string>
+    <string name="pwcg_card_info_invalid_tip">无效的信用卡资料，请重新输入</string>
+    <string name="pwcg_card_info_incomplete_tip">请输入完整的卡片资料</string>
+    <string name="pwcg_error_failed_get_token">获取token失败</string>
+    <string name="pwcg_error_pay_under_review">正在校验卡片的状态</string>
+    <string name="pwcg_error_card_num_empty">卡号不能为空</string>
+    <string name="pwcg_error_exp_mon_empty">月份不能为空</string>
+    <string name="pwcg_error_exp_year_empty">年不能为空</string>
+    <string name="pwcg_error_cvv_empty">校验码不能为空</string>
+    <string name="pwcg_error_card_id_empty">card_id不能为空</string>
+    <string name="pwcg_error_test_card">这是一个用于测试的信用卡</string>
+    <string name="pwcg_error_card_not_activated">信用卡未启动</string>
+    <string name="pwcg_error_card_charge_failed">支付失败，请联繫发卡行确认信用卡可以正常使用</string>
+    <string name="pwcg_error_card_order_has_charged">订单已储值成功，请退出后确认</string>
+    <string name="uc_payment_card_input_no_tip">卡号:</string>
+    <string name="uc_payment_card_input_pw_tip">密码:</string>
+    <string name="mycard_app_charge_confirm_info_failed">确认卡片资料失败</string>
+    <string name="mycard_app_charge_failed">直接储值失败</string>
+    <string name="mycard_token_not_support">不支持的支付方式</string>
+    <string name="mycard_fail_get_token">获取MyCard权杖失败</string>
+    <string name="payment_method_gash_point_adsl">ADSL</string>
+    <string name="payment_method_mycard_billing_test">欢乐1元购测试金流</string>
+
+    <string name="jewel_title">我的积分</string>
+    <string name="jewel_empty">您还没有积分噢～快去参与吧</string>
+    <string name="jewel_count">积分数：</string>
+    <string name="jewel_rule">积分规则</string>
+    <string name="jewel_exchange">使用积分</string>
+
+    <string name="cart_delete_good_tip">确定放弃中大奖的机会吗？</string>
+    <string name="payment_exception_tip">支付异常，请稍后重试</string>
+
+    <string name="hc_title">帮助中心</string>
+    <string name="fb_select_type">问题类型</string>
+    <string name="fb_optional_item">选填</string>
+    <string name="fb_content_tip">详情描述(不超过200字)</string>
+    <string name="fb_content_limit_max">最多输入{max}个字符</string>
+
+    <string name="uc_message_center">消息中心</string>
+    <string name="uc_mc_award_msg">奖品消息</string>
+    <string name="uc_mc_cs_msg">客服消息</string>
+    <string name="uc_mc_system_msg">系统公告</string>
+    <string name="uc_mc_personal_msg">个人消息</string>
+    <string name="uc_mc_message_list">消息列表</string>
+    <string name="uc_mc_cs_reply">查看回复</string>
+    <string name="uc_mc_cs_no_reply">待回复</string>
+    <string name="uc_mc_cs_read">已查看</string>
+    <string name="uc_mc_award_congratulation_tip">恭喜您, 中奖了!</string>
+    <string name="uc_mc_award_view_detail">查看详情</string>
+
+    <string name="personal_center_max_records_tip">仅可查看最近50条记录</string>
+
+    <string name="dialog_notification_hint">为保证您能及时收到红包和中奖提醒请在下一个界面勾选显示通知</string>
+    <string name="dialog_notification_confirm">立即设置</string>
+    <string name="dialog_notification_later">暂时不用，以后再说</string>
+    <string name="dialog_evaluate_confirm">前往评分</string>
+    <string name="dialog_evaluate_refuse">残忍拒绝</string>
+    <string name="dialog_evaluate_feedback">快去吐槽</string>
+
+    <string name="dialog_paying_contents">支付中</string>
+    <string name="dialog_paying_success">支付成功</string>
+    <string name="dialog_paying_cancel">支付遇到问题</string>
+
+    <string name="dialog_charge_feedback_title">反馈失败原因</string>
+    <string name="dialog_charge_feedback">其他原因</string>
+
+    <string name="cart_good_over_range_tip">本期仅剩{remain_times}欢乐币可参与，已自动为您调整</string>
+
+    <string name="fpw_title">找回密码</string>
+    <string name="fpw_next_step">下一步</string>
+    <string name="fpw_set_new_password">设置新密码:</string>
+    <string name="fpw_send_vercode_to_email">已发送验证码至邮箱: </string>
+    <string name="fpw_send_vercode_to_mobile">已发送验证码至手机: </string>
+    <string name="fpw_verifying">正在验证</string>
+    <string name="fpw_setting_new_pw">正在设置新密码</string>
+
+    <string name="setting_clear">清除本地缓存</string>
+    <string name="setting_praise">给我好评</string>
+    <string name="setting_new">检测更新</string>
+    <string name="setting_new_ios">版本号</string>
+    <string name="setting_new_checking">正在检测...</string>
+    <string name="setting_clear_confirm">确定要清除本地缓存？</string>
+    <string name="setting_clear_finish">本地缓存已经全部清除</string>
+    <string name="setting_no_new_version">当前已经是最新版本</string>
+
+    <string name="uc_home">首页</string>
+    <string name="good_detail_add_success">添加成功</string>
+    <string name="uc_addr_format_hint"></string>
+    <string name="uc_addr_landmarks_format_hint"></string>
+    <string name="uc_payment_tip_insufficient">馀额不足,还需&lt;font color="#fd5454">{coins}欢乐币&lt;/font></string>
+    <string name="uc_payment_tip_rate">其馀付款:(1欢乐币={num}{currency})</string>
+    <string name="payment_method_other">储值并支付(储值最高赠送15%)</string>
+    <string name="gd_buy_left">包尾</string>
+    <string name="gd_total_times">共&lt;font color="#fd5454">{jointimes}&lt;/font>欢乐币</string>
+    <string name="gd_select_jointimes">请选择购买欢乐币</string>
+
+    <string name="guide_title">什么是欢乐1元购?</string>
+    <string name="guide_subtitle">网友凑钱购买1件商品, \n通过抽奖方式决定谁获得该商品</string>
+    <string name="guide_remain">剩馀 &lt;font color="#fd5454">{remain}&lt;/font></string>
+    <string name="guide_total">总需 {total}</string>
+    <string name="guide_exchange_rate_tip">1¥=1欢乐币</string>
+    <string name="guide_continue">开始体验</string>
+    <string name="guide_join_now">立即参与</string>
+    <string name="guide_reveal">查看开奖</string>
+    <string name="guide_view_result">开奖结果</string>
+    <string name="guide_footer_win_tip">1元即可获得热门手机!</string>
+
+    <string name="setting_exchange">使用兑换码</string>
+    <string name="uc_exchange">使用兑换码</string>
+    <string name="uc_exchanging">正在兑换...</string>
+    <string name="uc_exchange_result_param_error">参数异常,兑换失败</string>
+    <string name="uc_exchange_result_used">兑换失败,兑换码已使用</string>
+    <string name="uc_exchange_result_invalid">无法识别的兑换码格式,请重试</string>
+    <string name="uc_exchange_result_status_error">查询兑换码失败,无兑换信息</string>
+    <string name="uc_exchange_result_order_failed">为用户兑换交易失败,请联繫客服人员</string>
+    <string name="uc_exchange_result_success">兑换成功!</string>
+    <string name="uc_exchange_dlg_ok">查看馀额</string>
+    <string name="uc_exchange_button">立即兑换</string>
+    <string name="uc_exchange_edit_tip">兑换码:</string>
+    <string name="uc_exchange_edit_hint">不区分大小写</string>
+
+    <string name="hp_total">总需</string>
+    <string name="hp_remaining">剩馀</string>
+    <string name="common_date_format_minutes" >%s分钟前</string>
+    <string name="common_date_format_hours">%s小时前</string>
+    <string name="common_date_format_days">%s天前</string>
+    <string name="shareorder_luckycode">幸运号码：&lt;font color="#fd5454">%s&lt;/font></string>
+    <string name="shareorder_detail_period">本期期号：%s</string>
+
+    <string name="uc_skip">跳过</string>
+    <string name="notice_revealed_countdown">倒计时&lt;font color="#fd5454">{countdown}&lt;/font></string>
+    <string name="notice_revealed_name">即将揭晓&lt;font color="#333333">{name}&lt;/font></string>
+    <string name="red_envelope_remain">馀额</string>
+    <string name="payment_charge_wait">正在储值请等待，储值成功后，若超过20分钟未到账，请与客服联繫。</string>
+    <string name="winrecord_tip_status_3rd_share">分享获得活动红包</string>
+    <string name="winrecord_action_status_3rd_share">社交分享</string>
+    <string name="winrecord_tip_status_finish">已完成</string>
+    <string name="winrecord_action_status_finish">继续参与</string>
+    <string name="winrecord_tip_status_win">恭喜中奖,快去领取奖品吧</string>
+    <string name="winrecord_action_status_win">领取奖品</string>
+    <string name="winrecord_tip_status_share">上传图片分享,奖励欢乐币哦</string>
+    <string name="winrecord_action_status_share">图片分享</string>
+    <string name="winrecord_tip_status_wait_for_delivery">商品将在7个工作日内发货</string>
+    <string name="winrecord_action_status_wait_for_delivery">查看详情</string>
+    <string name="winrecord_tip_status_delivery">商品已发货</string>
+    <string name="winrecord_action_status_delivery">确认收货</string>
+    <string name="winrecord_tip_status_cancel">订单已取消，如有疑问请联繫客服!</string>
+
+    <string name="award_process">领奖流程</string>
+    <string name="award_congratulation">恭喜您, 中奖了</string>
+    <string name="award_select_exchange_method">选择领取方式</string>
+    <string name="award_exchange_coin">兑换欢乐币</string>
+    <string name="award_get_card_password">领取卡密</string>
+    <string name="award_mail_award">邮寄商品</string>
+    <string name="award_exchanged_award_to_coin">已将商品兑换成欢乐币</string>
+    <string name="award_card_pw_got">卡密已派发</string>
+    <string name="award_confirmed_addr">已确认邮寄地址</string>
+    <string name="award_ship_tip">商品将在7个工作日内发货</string>
+    <string name="award_confirmed_receipt">确认收货</string>
+    <string name="award_share_award_tip">图片分享(审核通过后奖励1-5欢乐币)</string>
+    <string name="award_social_share_tip">请将中奖信息分享到Facebook</string>
+    <string name="award_ship_tip2">商品已发货</string>
+    <string name="award_completed">已完成</string>
+
+    <string name="award_encourage_continue_buy">手气不错，要乘胜追击哦</string>
+    <string name="award_continue_buy">继续参与</string>
+    <string name="award_encourage_share">上传图片分享，奖励欢乐币哦</string>
+    <string name="award_share_award">图片分享</string>
+    <string name="award_share_to_obtain">需要先分享才能获得活动红包</string>
+    <string name="award_social_share">社交分享</string>
+    <string name="award_confirm_addr">确认地址</string>
+    <string name="award_no_select_addr_tip">请先设置邮寄地址</string>
+    <string name="award_confirm_tip">确认地址之后不可修改!</string>
+    <string name="award_select_addr_tip">请选择收货地址，并确认</string>
+    <string name="award_request_card_info_tip">正在领取卡密</string>
+
+    <string name="award_exchange_coin_tip">是否将该商品兑换成{coins}欢乐币?</string>
+    <string name="award_confirm_addr_tip">确定将你选择的地址作为收货地址?</string>
+    <string name="award_wait_system_delivery">等待系统发货</string>
+
+    <string name="pop_award_share">炫耀一下</string>
+    <string name="points_remain">积分馀额</string>
+    <string name="points_total">累计收益:{points}</string>
+    <string name="points_today">今日收益:{points}</string>
+    <string name="points_exchange">积分兑换红包</string>
+    <string name="points_exchange_btn">{points}积分兑换</string>
+    <string name="points_record">积分记录</string>
+    <string name="points_record_empty">您还没有积分记录哦</string>
+    <string name="points_not_enough">积分不足</string>
+    <string name="points_tips_exchange_fail">兑换失败</string>
+    <string name="points_exchange_confirm">确认花费{points}积分兑换？</string>
+    <string name="pop_payment_total">总需欢乐币:</string>
+    <string name="pop_payment_money_fmt">&lt;font color="#fd5454">{money}&lt;/font>欢乐币</string>
+    <string name="pop_payment_money_fmt2">-{count}欢乐币</string>
+    <string name="pop_payment_balance_pay">欢乐币支付</string>
+    <string name="pop_payment_go_charge">去储值</string>
+    <string name="pop_payment_charge_tip">还需储值&lt;font color="#fd5454">{money}&lt;/font>欢乐币</string>
+    <string name="pop_payment_success_tip">购买成功</string>
+
+    <string name="inv_title">邀请返利</string>
+    <string name="inv_points_of_invitation">纍计邀请好友返利:</string>
+    <string name="inv_exchange">去兑换</string>
+    <string name="inv_level_title_fmt">{title} &lt;font color="#fd5454">{num}人&lt;/font></string>
+    <string name="inv_total">累计获得:</string>
+    <string name="inv_detail_title">邀请返利详情</string>
+    <string name="inv_invitation">立即邀请好友</string>
+    <string name="inv_point_source">{source} &lt;font color="#fd5454">+{num}&lt;/font></string>
+    <string name="inv_reward_rules">返利规则</string>
+    <string name="inv_empty_tip">你还没有邀请到好友，赶快行动吧！</string>
+
+    <string name="ucn_charge">储值</string>
+    <string name="ucn_coins">欢乐币</string>
+    <string name="ucn_redpackets">红包</string>
+    <string name="ucn_points">积分</string>
+    <string name="ucn_invitation">邀请返利</string>
+    <string name="ucn_share_orders">分享记录</string>
+    <string name="ucn_login_first">请点击登录</string>
+
+    <string name="gdn_no_login_tip">您还没有登陆哦，点击“立即参与”跳转登陆!</string>
+    <string name="gdn_no_join_tip">您本期没有参与哦，快到最新期试试手气!</string>
+    <string name="gdn_no_join_tip2">您还没有参加哦，快来试一试，万一中了呢?</string>
+    <string name="gdn_joined_tip">您參與了{count}淘幣，幸運號碼為{lucky_codes}</string>
+</resources>
